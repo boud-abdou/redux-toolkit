@@ -13,6 +13,7 @@
     margin: 30px auto;
     padding: 30px;
     background-color: rgba(34, 33, 33, 0.762);
+    box-shadow: 0 25px 25px rgba(34, 33, 33, 0.3);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -22,6 +23,7 @@
 h1 {
     color: orangered;
     margin-bottom: 30px;
+    z-index: 10;
 }
 
 
@@ -36,6 +38,7 @@ h1 {
         -o-border-radius: 0;
         background-color: transparent;
         justify-content: flex-start;
+        box-shadow: none;
 }
     
 }

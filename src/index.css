@@ -1,4 +1,6 @@
-
+body {
+    background-color: aliceblue;
+}
 @media screen and (max-width: 900px) {
     body {
         background-color: #2f2e2e
