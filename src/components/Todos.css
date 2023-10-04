@@ -1,0 +1,60 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #ffa500;
+    color: #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.complete {
+    background-color: #9a4f34;
+}
+.complete span {
+    text-decoration: line-through;
+}
+
+.todo__text {
+    font-size: 1.5rem;
+    flex: 1;
+}
+.icons {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.delete__btn,
+.done__btn {
+     
+     cursor: pointer;
+     transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+     
+}
+.delete__btn:hover {
+    color: red;
+}
+.done__btn:hover {
+    color: green;
+}
+.done {
+    color: green;
+}
+

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(34, 33, 33, 0.762);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+h1 {
+    color: orangered;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .App {
+        width: 100vw;
+        margin: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        background-color: transparent;
+        justify-content: flex-start;
+}
+    
+}
+
