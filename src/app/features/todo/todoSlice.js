@@ -1,7 +1,12 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
+const localValue =() => {
+  const saved = localStorage.getItem("todos");
+  const initialValue = JSON.parse(saved);
+  return initialValue;
+}
 
 const initialState = {
-    todos: JSON.parse(localStorage.getItem('todos')),
+    todos: localValue()
 }
 const todoSlice = createSlice({
     name: 'todo',
